@@ -1,0 +1,44 @@
+*{
+    background: black;
+    color:white;
+    box-sizing: border-box;
+}
+
+.Banner{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menuBar
+{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+
+    background-color: darkred;
+
+}
+.menuBarText{
+    text-decoration: none;
+    color: white;
+    background-color: darkred;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+a:hover{
+    color: gray;
+}
