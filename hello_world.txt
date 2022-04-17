@@ -1,4 +1,0 @@
-#git_test
-Odin Project test repo
-hello odin
-test
