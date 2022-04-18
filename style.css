@@ -5,12 +5,10 @@
     font-style: normal;
 }
 *{
-    font-family: 'Cinzel', serif;
-}
-*{
     background: black;
     color:white;
     box-sizing: border-box;
+    font-family: 'Cinzel', serif;
 }
 .Banner{
     background-color: black;
