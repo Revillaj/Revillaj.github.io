@@ -18,14 +18,11 @@
 }
 .menuBar
 {
-    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 100px;
-
     background-color: darkred;
-
 }
 .menuBarText{
     text-decoration: none;
@@ -38,7 +35,39 @@
     align-items: center;
     margin: 15px;
 }
-
-a:hover{
+.menuBarText:hover{
     color: gray;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkred;
+}
+
+.mid-text{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footerText{
+    color: white;
+    background-color: darkred;
+    display: flex;
+    padding-left: 15px;
+}
+.forSnapText{
+    color:white;
+    background-color: darkred;
+    justify-content: right;
+    align-items: end;
+    padding-right: 10px;
+
 }
