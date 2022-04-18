@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Cinzel';
+    src: url('fonts'), url('fonts/Cinzel-variableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'Cinzel', serif;
+}
 *{
     background: black;
     color:white;
@@ -92,6 +101,7 @@
 .Fries{
     flex:1;
     flex-direction: column;
+    margin-top: 50px;
     margin-bottom:100px;
 }
 .BrickandMorter{
@@ -102,11 +112,12 @@
 .Salads {
     flex: 1;
     flex-direction: column;
-    margin-bottom:300px;
+    margin-top: 50px;
 }
 .Burger{
     flex: 1;
     flex-direction: column;
+    margin-top: 50px;
     margin-bottom:100px;
 }
 h3{
@@ -120,11 +131,19 @@ h3{
     margin-right: auto;
     width: 50%;
     border:5px solid dimgray;
+    margin-top: 50px;
 
 }
 .burgerPicture{
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.menuLink{
+    font-size: 30px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom:300px;
 }
